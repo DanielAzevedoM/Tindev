@@ -14,9 +14,9 @@ export default function Login({history}) {
             username,
         });
 
-        const { id} = response.data;
+        const { _id} = response.data;
 
-        history.push('/main');
+        history.push(`/dev/${_id}`);
     }
     
     return(
