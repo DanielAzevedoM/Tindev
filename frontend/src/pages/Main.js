@@ -7,7 +7,8 @@ import api from '../services/api';
 import { Link} from 'react-router-dom';
 
 
-export default function Main({ match }){
+export default function 
+Main({ match }){
     const[users, setUsers] = useState([]);
     useEffect(() => {
         async function loadUsers(){
