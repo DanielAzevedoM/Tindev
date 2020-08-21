@@ -6,7 +6,7 @@ const cors = require('cors')
 
 const server = express();
 
-mongoose.connect('mongodb+srv://metinlord3:pokemon312@cluster0-gohgm.mongodb.net/giohub?retryWrites=true&w=majority',{
+mongoose.connect('mongodb+srv://login:password@cluster0-gohgm.mongodb.net/giohub?retryWrites=true&w=majority',{
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
